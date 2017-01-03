@@ -1,0 +1,41 @@
+{
+  "name": "react-redux-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "19.2.3",
+    "@types/node": "7.0.22",
+    "@types/ramda": "0.0.11",
+    "@types/react": "15.0.24",
+    "@types/react-dom": "15.5.0",
+    "@types/react-redux": "4.4.40",
+    "@types/react-router-dom": "4.0.4",
+    "@types/react-router": "4.0.11",
+    "@types/redux-logger": "3.0.0",
+    "immutable": "3.8.1",
+    "ramda": "0.23.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-redux": "5.0.5",
+    "react-router-dom": "4.1.1",
+    "redux": "3.6.0",
+    "redux-logger": "3.0.6",
+    "redux-saga": "0.15.3",
+    "tsmonad": "0.7.2"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "2.2.0",
+    "tslint": "5.4.3",
+    "tslint-react": "3.0.0",
+    "typescript": "2.3.4",
+    "json-server": "^0.10.1"
+  },
+  "scripts": {
+    "lint": "tslint --config tslint.json --project tsconfig.json --type-check",
+    "start": "react-scripts-ts start && npm run mock-server",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "mock-server": "json-server --watch meta/mockdb.json --port 8999"
+  }
+}

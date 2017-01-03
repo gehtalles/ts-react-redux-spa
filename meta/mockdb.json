@@ -1,0 +1,10 @@
+{
+  "smarties": [
+    { "id": 1, "name": "blue", "amount": 42, "createdAt": 1498557490183 },
+    { "id": 2, "name": "red", "amount": 58, "createdAt": 1498557490184 },
+    { "id": 3, "name": "green", "amount": 1337, "createdAt": 1498557490185 },
+    { "id": 4, "name": "yellow", "amount": 2, "createdAt": 1498557490186 },
+    { "id": 5, "name": "brown", "amount": 11, "createdAt": 1498557490187 }
+  ]
+}
+

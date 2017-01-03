@@ -1,0 +1,8 @@
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+nav > ul > a {
+  margin-right: 10px;
+}
